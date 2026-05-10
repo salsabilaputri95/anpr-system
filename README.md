@@ -14,11 +14,14 @@ This research was developed as a cost-effective (open-source) solution to suppor
    - Denoising using Non-local Means (NLM) method to reduce noise
    - Contrast enhancement using Histogram Equalization to improve text sharpness
    - Sharpening kernel to enhance license plate character details
+
 ✅ **Text Extraction (EasyOCR) & Post-Processing**:
    - Character whitelisting (reads only capital letters A-Z, digits 0-9, and spaces)
    - Automatic text cleaning and space format normalization
    - Multi-attempt OCR with 2 preprocessing methods × 2 OCR parameter configurations
    - Similar character correction: O↔0, I↔1, DD↔D0, DW, DP to improve accuracy
+
+
 ✅ **License Plate Format Validation** - Strict validation based on South Sulawesi format with regex pattern: `^(DD|DW|DP)\s?\d{4}\s?[A-Z]{2,3}$`  
 ✅ **Result Visualization** - Display detections with valid/invalid labels on images  
 ✅ **Result Export** - Save detected images to the `hasil uji` folder  
