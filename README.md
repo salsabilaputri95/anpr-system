@@ -8,6 +8,7 @@ This research was developed as a cost-effective (open-source) solution to suppor
 
 ✅ **Vehicle Direction Detection** - Uses YOLOv8 to classify vehicle movement direction (correct direction vs. wrong direction).  
 ✅ **License Plate Localization**: Accurately detects and crops the license plate area on vehicles identified as traffic violators.
+
 ✅ **Intelligent Image Pre-processing**:
    - Grayscale conversion for input normalization
    - Adaptive image inversion based on background detection (bright/dark)
