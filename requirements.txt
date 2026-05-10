@@ -1,0 +1,24 @@
+# Computer Vision & Machine Learning
+ultralytics
+torch
+torchvision
+
+# Computer Vision Libraries
+opencv-python
+easyocr
+Pillow
+
+# Data Processing & Analysis
+numpy
+pandas
+
+# Visualization
+matplotlib
+seaborn
+
+# Jupyter Notebook Support
+ipython
+ipywidgets
+
+# Additional Python Standard Libraries (usually pre-installed)
+# os, re, logging, time, glob, json, random, shutil
